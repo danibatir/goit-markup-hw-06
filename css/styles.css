@@ -867,6 +867,9 @@ margin-bottom: 16px;
 .text-area-div:checked + .svg-modal .svg-icons{
   fill: #4D5AE5;
 }
+.input-textarea{
+  
+}
 .input-textarea:checked + .modal-span{
   background-color: #404bbf;
   border:none;
