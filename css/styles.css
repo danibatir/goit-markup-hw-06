@@ -767,7 +767,7 @@ margin-bottom: 16px;
 .div-input{
   position:relative;
 }
-.input.modal{
+.input-modal{
   width:100%;
   height:40px;
   border:1px solid rgba(46,47,66,0.4);
@@ -777,7 +777,7 @@ margin-bottom: 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
-.input.modal:focus{
+.input-modal:focus{
   border-color:#4D5AE5;
 }
 .svg-modal{
@@ -791,9 +791,9 @@ margin-bottom: 16px;
   fill: #4D5AE5;
 }
 .text-area{
-  width:100%;
+  width: 100%;
   height: 120px;
-  font-size:12px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
@@ -803,7 +803,7 @@ margin-bottom: 16px;
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-area:focus{
   border-color:#4D5AE5;
@@ -840,6 +840,7 @@ margin-bottom: 16px;
   color:#4d5ae5;
 }
 .button-form-modal{
+  display:block;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   background-color: #4D5AE5;
@@ -854,4 +855,7 @@ margin-bottom: 16px;
   height: 56px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comment-div{
+  margin-bottom:16px;
 }
