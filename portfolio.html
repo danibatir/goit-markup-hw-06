@@ -279,10 +279,10 @@
         </div>
       </section>
     </main>
-    <footer class="footer footer-container">
+    <footer class="footer-container footer">
       <div class="container footer-container">
         <div class="div-footer">
-          <a class="link logo logo-blue link-footer" href="./portfolio.html"
+          <a class="link logo logo-blue link-footer" href="./index.html"
             >Web <span class="logo-header-footer">Studio</span></a
           >
           <p class="p-footer">
@@ -323,12 +323,25 @@
             </li>
           </ul>
         </div>
-        <img
-          class="section-three-img"
-          src="./images/darkbg.jpg"
-          alt="darkbg"
-          width="1440"
-        />
+        <div>
+          <p class="subscribe-paragraf">Subscribe</p>
+          <form autocomplete="on" name="footer-form" class="footer-form">
+            <label class="social_media_section">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="input-footer"
+              />
+            </label>
+            <button type="submit" class="button-form-footer">
+              Subscribe
+              <svg width="24" height="24" class="svg-form-footer">
+                <use href="./images/icons.svg#iconsend"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
