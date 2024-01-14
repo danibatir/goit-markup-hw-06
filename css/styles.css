@@ -703,11 +703,5 @@ label {
   border: 1px;
   margin-left: 24px;
 }
-.label_svg_one{
-  position:relative;
-}
-.label_svg_one::before{
-  background-image: url(../images/icons.svg#vector);
-}
 
 
