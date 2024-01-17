@@ -868,3 +868,6 @@ input:checked + .label-checkbox span:first-child{
   border: none;
   fill: #f4f4fd;
 }
+.modal-div:focus-within{
+  fill: #4D5AE5;
+}
